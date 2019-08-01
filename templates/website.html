@@ -16,16 +16,17 @@
 </head>
 
 <body id= "homebody">
-
+	<div id="homediv">
 	<h1 class="bouncein1">
-		HELLO
+		WELCOME!
 	</h1>
 
 	<br>
 
-	<h2 class="bouncein2" style= "text-align: center;">
-		Click <span style="color:blue;">Learn more</span> to know more about me, or <span style="color:blue;">Quiz Time</span> to take a fun quiz!
+	<h2 class="bouncein2">
+		Click <span style="color:blue;">Learn more</span> to know more about me, <br> or <span style="color:blue;">Quiz Time</span> to take a fun quiz!
 	</h2>
+
 	<script>
 		$(document).ready(function(){
 			$("#button1").click(function(){
@@ -35,22 +36,27 @@
 	</script>
 
 	
-<!-- 		<input type="submit" class="buttons" id="button1" value="Learn more">
- -->		<!-- <input type="submit" class="buttons" id="button2" value="Quiz time"> -->
+ 	<div style="margin: auto; width: 800px">
 	<button class="buttons" id="button1">Learn more</button>
 	<button class="buttons" id="button2">Quiz Time </button>
+	</div>	
+</div>
 
-	<p id="description" style="display:none">
-		<br>
-		<span style="font-size: 40px;"> Hello there! </span> <br>
-		<span style = "font-size: 30px;">My name is Noor Ali, I'm a student in the Rosary Sisters' High School, Jerusalem. <br>
+	<p class="description" style="display:none">
+		
+		<span style="color:red; font-size: 40px; font-weight: bold; font-weight: bold; text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;"> Hello there! </span> <br>
+		<span style = "font-size: 30px; font-weight: bold; ">My name is Noor Ali, a student in the Rosary Sisters' High School, Jerusalem. <br>
 		I'm a Y2 student in MEET. <br>
 		I love animals and I have many cats at home.</span> <br> <br>
-		<span style="color: red; font-size: 40px;">Why MEET?</span> <br>
-		<span style="font-size: 30px;">I chose MEET because I wanted to learn more about the other side, 
+		<span style="color: red; font-size: 40px; font-weight: bold; text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;">Why MEET?</span> <br>
+		<span style="font-size: 30px; font-weight: bold;">I chose MEET because I wanted to learn more about the other side, 
 		<br> as well as learn CS and business arts. <br></span> 
 		<br>
+		<!-- <div class="description"> -->
+		<img src="cat.gif" width="50" height="50">
 	</p>
+
+	
 
 	<script>
 		$(document).ready(function(){
